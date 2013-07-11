@@ -382,6 +382,17 @@ Full-Width Styles
   background: #212121;
 }
 
+.scswebsite {
+  filter: alpha(opacity=0);
+    2-moz-opacity:0;
+    3opacity: 0;
+}
+    
+.scswebsite:hover {
+  filter: alpha(opacity=100);
+    2-moz-opacity:1;
+    3opacity: 1;
+}
 
 
 /*******************************************************************************
