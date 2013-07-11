@@ -2,7 +2,6 @@
 layout: default
 title: 北京出差日志
 ---
-<h2>{{ page.title }}</h2>
 <p>所有数据入库完成，将生成的图片汇总到服务器中
 	设置网站地址 http://128.5.6.65:8080/NIO/ 或者 http://128.5.6.65/indian
 	风场数据改变，level从3层改为7层，智能读取level 850、500和200hpa的数据
@@ -10,4 +9,3 @@ title: 北京出差日志
 		不能用Global，不能用assignin和evalin，如要存储全局变量可以保存读取.mat
 		imagesc无法用alphadata属性，这个限制太致命了，导致nan值无法绘制成白色（默认蓝色）
 		还有很多奇怪的问题，如设置的figure属性无效</p>
-<p>{{ page.date | date_to_string }}</p>
