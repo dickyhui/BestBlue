@@ -322,11 +322,11 @@ Full-Width Styles
 }
 
 #blog_dateline {
-  color: #212121;
+  color: #fff;
   font-size: 22px;
   font-weight: 300;
   background: none;
-  text-shadow: #111 0px 0px 10px;
+  text-shadow: #000 0px 0px 5px,#000 0px 0px 10px,#000 0px 0px 15px;
 }
 
 #downloads {
